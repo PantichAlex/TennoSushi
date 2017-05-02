@@ -18,7 +18,7 @@ import java.io.OutputStream;
 
 public class CacheSaver {
     private static CacheSaver cacheSaver;
-    private String cacheFoldel;//папка кэша приложения пока не придумал как её иницализировать
+    private String cacheFolder;//папка кэша приложения пока не придумал как её иницализировать
     private CacheSaver(){}
 
     public static synchronized CacheSaver getCache(){
